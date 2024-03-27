@@ -12,5 +12,7 @@ mv /usr/share/applications/bssh.desktop /usr/share/applications/bssh.desktopbkup
 mv /usr/share/applications/bvnc.desktop /usr/share/applications/bvnc.desktopbkup
 mv /usr/share/applications/org.kde.kuserfeedback-console.desktop /usr/share/applications/org.kde.kuserfeedback-console.desktopbkup
 mv /usr/share/applications/yad-settings.desktop /usr/share/applications/yad-settings.desktopbkup
-
-
+mv /usr/share/applications/assistant.desktop /usr/share/applications/assistant.desktopbkup
+mv /usr/share/applications/designer.desktop /usr/share/applications/designer.desktopbkup 
+mv /usr/share/applications/linguist.desktop /usr/share/applications/linguist.desktopbkup 
+mv /usr/share/applications/qdbusviewer.desktop /usr/share/applications/qdbusviewer.desktopbkup 
