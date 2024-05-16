@@ -44,7 +44,7 @@ zplug check || zplug install
 zplug load
 
 alias ls="ls --color"
-alias logout="loginctl terminate-user mnesterovich"
+alias logout="loginctl terminate-user"
 alias exit="shutdown now"
 alias cat='bat'
 alias htop="btop"
