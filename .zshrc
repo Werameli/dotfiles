@@ -1,13 +1,12 @@
 export TERM="xterm-color"
 export KWIN_TRIPLE_BUFFER=1
-export HOST_LANG=ru_RU.UTF-8
-export HOST_LC_ALL=ru_RU.UTF-8
+export HOST_LANG=en_US.UTF-8
+export HOST_LC_ALL=en_US.UTF-8
 
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(host user dir)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator vcs time)
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-POWERLEVEL9K_DISABLE_GITSTATUS=true
 
 
 # ZPlug
@@ -48,9 +47,7 @@ alias logout="loginctl terminate-user"
 alias exit="shutdown now"
 alias cat='bat'
 alias htop="btop"
-alias nf="neofetch"
+alias nf="fastfetch"
 alias mc="ranger"
-alias premid="premid --no-sandbox"
-alias rebuild="checkrebuild"
 
 export PATH=~/.cargo/bin:$PATH
