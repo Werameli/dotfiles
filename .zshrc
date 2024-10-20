@@ -7,6 +7,7 @@ export HOST_LC_ALL=en_US.UTF-8
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(host user dir)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator vcs time)
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+POWERLEVEL9K_DISABLE_GITSTATUS=true
 
 
 # ZPlug
@@ -43,11 +44,9 @@ zplug check || zplug install
 zplug load
 
 alias ls="ls --color"
-alias logout="loginctl terminate-user"
 alias exit="shutdown now"
 alias cat='bat'
-alias htop="btop"
-alias nf="fastfetch"
+alias ff="fastfetch"
 alias mc="ranger"
 
 export PATH=~/.cargo/bin:$PATH
