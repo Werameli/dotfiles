@@ -44,7 +44,6 @@ zplug check || zplug install
 zplug load
 
 alias ls="ls --color"
-alias exit="shutdown now"
 alias cat='bat'
 alias ff="fastfetch"
 alias mc="ranger"
